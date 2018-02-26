@@ -1,0 +1,162 @@
+header {
+  text-align: justify;
+  letter-spacing: 1px;
+  height: 8em;
+  width: 80%;
+  padding: 0 10%;
+}
+
+header::after {
+    content: '';
+    display: inline-block;
+    width: 50%;
+}
+
+header  {
+    display: inline-block;
+}
+
+.Logo {
+  display: inline-block;
+  }
+
+  header nav ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration:none;
+  }
+
+  header nav ul li {
+    display: inline;
+    width: 30px;
+    padding: 5px 10px;
+  }
+
+.Active {
+  background-color: rgb(234, 79, 61);
+  border: 1px solid rgb(234, 79, 61);
+  border-radius: 5px;
+  padding-top: 280px;
+}
+
+.Active a {
+  color: #fff;
+}
+nav {
+  display: inline-block;
+  font-size: 1.6vw;
+  font-family: 'Lato', sans-serif;
+  line-height: 2em;
+  z-index: 140;
+}
+.Nav {
+  display: inline-block;
+
+}
+
+#SectionObject {
+  width: 80%;
+  padding: 0 10%;
+}
+
+@media screen and (min-width:480px) {
+#topbild {
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/Bg.png");
+}
+}
+
+@media screen and (max-width:479px) {
+  #topbild {
+    height: 15vh;
+    background-size: contain;
+  }
+  }
+
+#ObjectName {
+  font-size: 40px;
+  font-family: "Sansita";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  z-index: 131;
+}
+#ShortDescr {
+  font-size: 20px;
+  font-family: "Asap";
+  color: rgb(136, 136, 136);
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+  z-index: 130;
+}
+.bg {
+  background-color: rgb(204, 204, 204);
+}
+.w3-content{
+  max-width:980px;
+  margin:auto
+}
+.w3-section{
+  margin-top:16px!important;
+  margin-bottom:16px!important
+}
+.w3-col.s3{
+  width: 16.6%
+}
+.w3-col{
+  float: left;
+}
+.w3-row-padding>.w3-col{
+  padding: 0 8px;
+}
+.w3-row-padding
+{
+  padding: 0 8px;
+}
+.w3-row-padding:after,.w3-row-padding:before
+  {
+    content:"";
+    display:table;
+    clear:both
+  }
+.w3-opacity-off,.w3-hover-opacity-off:hover{
+  opacity:1
+}
+
+.line {
+  background-color: rgb(195, 205, 212);
+  height: 1px;
+  z-index: 114;
+}
+#ObjDescription {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.h2ObjectDescr {
+  font-size: 25px;
+  font-family: "Sansita";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+  
+  z-index: 111;
+}
+
+
+.pObjectDescr {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(0, 0, 0);
+  line-height: 1.571;
+  text-align: justify;
+  
+  z-index: 110;
+}
